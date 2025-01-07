@@ -17,4 +17,4 @@ This course is availabe on [Youtube](https://www.youtube.com/playlist?list=PLu71
 Course was not only begginer friendly but also for intermidiate python programmers which covered all the fundamentals and practical information and code of python
 
 ## Note
-I will be adding more files into api handling folder for exercising of my api handling skills and a small small for begginers to try out api handling for very first time
+I will be adding more files into api handling folder for exercising of my api handling skills and for begginers to try out api handling for very first time
