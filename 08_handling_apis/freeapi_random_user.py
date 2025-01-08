@@ -1,6 +1,6 @@
 import requests
 
-def get_random_users():
+def get_random_user():
     # Handling the dictionary
     url = 'https://api.freeapi.app/api/v1/public/randomusers/user/random'
     response = requests.get(url)
@@ -16,7 +16,7 @@ def get_random_users():
 
 def main():
     try :
-        randomuser , randomcountry = get_random_users()
+        randomuser , randomcountry = get_random_user()
         print(f"Username: {randomuser} \nCountry: {randomcountry}")
     except Exception as e:
         print(str(e))
