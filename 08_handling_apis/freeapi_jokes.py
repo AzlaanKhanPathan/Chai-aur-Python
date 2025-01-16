@@ -1,6 +1,6 @@
 import requests
 
-def fetch_product_id():
+def fetch_joke():
     url = "https://api.freeapi.app/api/v1/public/randomjokes?limit=10&query=science&inc=categories%252Cid%252Ccontent&page=1"
     response = requests.get(url)
     data = response.json()
@@ -16,7 +16,7 @@ def fetch_product_id():
 
 def main():
     try:
-        joke = fetch_product_id()
+        joke = fetch_joke()
         print(f"The Joke is: ${joke}")
     except Exception as e:
         print(str(e))
